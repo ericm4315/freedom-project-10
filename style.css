@@ -1,5 +1,5 @@
 #logo {
-    position:fixed;
+    position: fixed;
 	top:0;
 	left:0;
 	z-index: 2;
@@ -16,4 +16,22 @@
         width: 100vw;
         height: 65vh;
     }
+    .moreleftman {
+        position: absolute;
+        left:  50vmin !important;
+    }
+}
+
+@media (max-width: 1005px) {
+    .beginning {
+        height: 75vh;
+    }
+}
+.accordion {
+    text-align: center;
+    width: 50vw;
+    height: auto;
+    position: absolute;
+    left: 30vmin;
+    bottom: 32vmax;
 }
