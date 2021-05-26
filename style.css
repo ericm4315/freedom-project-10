@@ -1,0 +1,19 @@
+#logo {
+    position:fixed;
+	top:0;
+	left:0;
+	z-index: 2;
+
+}
+
+.beginning {
+    z-index: 1;
+
+}
+
+@media (min-width: 1005px) {
+    .beginning {
+        width: 100vw;
+        height: 65vh;
+    }
+}
