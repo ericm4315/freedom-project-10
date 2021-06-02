@@ -2,7 +2,7 @@
     position: fixed;
 	top:0;
 	left:0;
-	z-index: 2;
+	z-index: 3;
 
 }
 
@@ -26,6 +26,30 @@
     .beginning {
         height: 75vh;
     }
+    .problemcard {
+        width: 76vw !important;
+        z-index: 2;
+    }
+    .ppicture {
+        z-index: 1;
+        width: 0vw;
+        height: 0px;
+        border-width: 0px !important;
+    }
+    .smpicture1 {
+        width: 100px !important;
+        height: 100px !important;
+        float: left;
+        position: relative;
+        left: 20vw;
+    }
+    .smpicture2 {
+        width: 100px !important;
+        height: 100px !important;
+        float: right;
+        position: relative;
+        right: 20vw;
+    }
 }
 .accordion {
     text-align: center;
@@ -34,4 +58,43 @@
     position: absolute;
     left: 30vmin;
     bottom: 32vmax;
+}
+
+.centertext {
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+.problemcard {
+    position: relative;
+    top: 20px;
+    width: 50vw;
+    left: 40px;
+    margin: 20px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.ppicture {
+    position: relative;
+    right: 200px;
+    border-color: #55C9DB;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.smpicture1 {
+    width: 0vw;
+    height: 0px;
+}
+.smpicture2 {
+    width: 0vw;
+    height: 0px;
 }
